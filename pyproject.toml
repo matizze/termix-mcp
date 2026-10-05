@@ -96,3 +96,6 @@ testpaths = ["tests"]
 
 [tool.coverage.run]
 source = ["src/termix_mcp"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
