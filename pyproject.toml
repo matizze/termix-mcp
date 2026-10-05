@@ -24,7 +24,7 @@ classifiers = [
 ]
 dependencies = [
     "fastmcp>=4.0,<5",
-    "termix-sdk>=0.2,<0.3",
+    "termix-sdk @ git+https://github.com/matizze/termix-sdk@feat/termix-2.9-plugins",
     "pydantic-settings>=2.11,<3",
 ]
 
